@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隐私政策 · gladstats</title>
+<meta name="description" content="gladstats 的设计初衷，就是在不知道你是谁的前提下正常运行。无需注册账号即可使用全部核心功能，除非你主动选择备份，否则里程碑始终保存在你的设备上。">
+<style>
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #FFFFFF;
+  color: #111827;
+  font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap { max-width: 680px; margin: 0 auto; padding: 56px 24px 96px; }
+.brand {
+  display: inline-block; font-weight: 600; font-size: 15px;
+  color: #111827; text-decoration: none; letter-spacing: -0.01em;
+}
+h1 { font-size: 30px; letter-spacing: -0.02em; margin: 28px 0 12px; }
+h2 { font-size: 17px; margin: 36px 0 8px; letter-spacing: -0.01em; }
+p { color: #4B5563; margin: 0 0 14px; }
+.intro { font-size: 17px; color: #374151; margin-bottom: 8px; }
+a { color: #111827; }
+.langs {
+  display: flex; flex-wrap: wrap; gap: 8px;
+  margin: 24px 0 0; padding: 20px 0 0;
+  border-top: 1px solid #E5E7EB;
+}
+.langs a {
+  font-size: 13px; color: #6B7280; text-decoration: none;
+  border: 1px solid #E5E7EB; border-radius: 999px; padding: 5px 12px;
+}
+.langs a[aria-current] { color: #111827; border-color: #111827; }
+.nav { display: flex; gap: 16px; margin-top: 8px; }
+.nav a { font-size: 14px; color: #6B7280; text-decoration: none; }
+.nav a[aria-current] { color: #111827; font-weight: 500; }
+.updated { color: #9CA3AF; font-size: 13px; margin-top: 32px; }
+footer {
+  margin-top: 48px; padding-top: 20px;
+  border-top: 1px solid #E5E7EB; color: #9CA3AF; font-size: 13px;
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="brand" href="../">gladstats</a>
+  <nav class="nav"><a href="./privacy.html" aria-current="page">隐私政策</a><a href="./terms.html">使用条款</a><a href="./help.html">帮助与常见问题</a></nav>
+  <h1>隐私政策</h1>
+  <p class="intro">gladstats 的设计初衷，就是在不知道你是谁的前提下正常运行。无需注册账号即可使用全部核心功能，除非你主动选择备份，否则里程碑始终保存在你的设备上。</p>
+  <h2>设备上保存了什么</h2>
+<p>你的里程碑——标题、表情符号、分类、日期，以及正计时或倒计时的设置——都与应用偏好一起保存在本地。除非你登录，否则这些数据不会离开你的设备。</p>
+<h2>如果你选择登录</h2>
+<p>使用 Apple 或 Google 登录完全是可选的，目的只有一个：让你的里程碑可以备份，并在另一台设备上恢复。登录后，我们会将你的里程碑和账号标识保存在 Google Firebase 中，且只有你自己的账号才能读取。你随时可以退出登录以停止同步。</p>
+<h2>购买</h2>
+<p>订阅由 App Store 和 RevenueCat 处理，后者会告知应用你的 Pro 权限是否有效。我们从不查看或存储你的支付信息。</p>
+<h2>通知</h2>
+<p>每日提醒在你的设备上安排。通知文案根据你自己的里程碑在本地生成，不会经过任何服务器。</p>
+<h2>分享卡片</h2>
+<p>分享图片在你的设备上生成，只会发送到你指定的地方，不会被自动上传。</p>
+<h2>删除你的数据</h2>
+<p>你可以在应用中删除任意里程碑，也可以在“设置”中一次性全部删除。登录状态下删除，备份中的数据也会一并移除。卸载应用则会清除本地保存的所有内容。</p>
+<h2>儿童</h2>
+<p>gladstats 并非面向 13 岁以下儿童，我们也不会有意收集他们的信息。</p>
+<h2>联系我们</h2>
+<p>如对隐私有任何疑问，欢迎发送邮件至 <a href="mailto:info@gladstats.com">info@gladstats.com</a>。</p>
+  <p class="updated">最后更新：2026 年 2 月</p>
+  <div class="langs"><a href="../">English</a><a href="../tr/privacy.html">Türkçe</a><a href="../de/privacy.html">Deutsch</a><a href="../fr/privacy.html">Français</a><a href="../es/privacy.html">Español</a><a href="../it/privacy.html">Italiano</a><a href="../pt/privacy.html">Português</a><a href="../zh/privacy.html" aria-current="true">中文</a><a href="../ja/privacy.html">日本語</a><a href="../ko/privacy.html">한국어</a></div>
+  <footer>© 2026 gladstats</footer>
+</div>
+</body>
+</html>
